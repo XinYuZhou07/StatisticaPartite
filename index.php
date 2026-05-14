@@ -1,6 +1,5 @@
 <?php
 include "connect_db.php";
-include_once "calcFrecRel.php";
 include_once "predizione.php";
 
 $sql_elenco = "SELECT id, squadra1, squadra2 FROM partite";
