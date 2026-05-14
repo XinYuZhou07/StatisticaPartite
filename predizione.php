@@ -13,14 +13,14 @@ $attS2 = potereAttaccoS1v2($squad2, $squad1, $conn);
 $prob1 = probabilitaVittoriaS1($attS1, $attS2);
 $prob2 = probabilitaVittoriaS1($attS2, $attS1);
 
-
+/* 
 echo "Probabilita di vittoria (con memoria) di S1: " . "<br>";
 echo ($prob1);
 echo "<br>";
 
 echo "Probabilita di vittoria (con memoria) di S2: " . "<br>";
 echo ($prob2);
-echo "<br>";
+echo "<br>"; */
 
 
 //senza tenere conto delle partite passate
